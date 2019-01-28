@@ -335,5 +335,5 @@ La tercera opció, que és la que utilitzarem nosaltres, és la d'utilitzar una 
 </div>
 </p>
 
-Per a fer servir els protoboards s'ha de conèixer com estan connectats els seus forats interiorment. Per aprendre el seu funcionament visiteu el següent enllaç: https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all
+Per a fer servir els protoboards s'ha de conèixer com estan connectats els seus forats interiorment. Per aprendre el seu funcionament visiteu el següent enllaç: [https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all){:target="_blank"}
 
