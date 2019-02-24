@@ -14,7 +14,7 @@
 
 ### [Sensor d'efecte Hall](hall/hall.md){:target="_blank"}
 
-### [sensor de vibracions](shock/shock.md){:target="_blank"}
+### [Sensor de vibracions](shock/shock.md){:target="_blank"}
 
 
 
