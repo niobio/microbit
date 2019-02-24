@@ -6,8 +6,6 @@
 
 ### [Control de motors](motor/motors.md){:target="_blank"}
 
-### [Control de motors](motor/motors.md){:target="_blank"}
-
 ### [Detecció de moviments amb infraroigs](ir/pir/pir.md){:target="_blank"}
 
 ### [Detecció d'obstacles amb infraroigs](ir/ir_obstacle/ir_obstacle.md){:target="_blank"}
