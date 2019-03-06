@@ -6,7 +6,7 @@ La placa micro:bit té una banda amb connectors que permeten comunicar-se amb di
 La especificació de l'ús de cada pin es pot veure a la figura inferior.
 
 <div align="middle">
-<img src="img/pinout.png" width="60%">
+<img src="img/pinout.png" width="80%">
 </div>
 
 ## Entrades tàctils
@@ -41,7 +41,7 @@ Els pins 0, 1, 2, 3, 4 i 10 poden fer-se servir com entrades analògiques. Un ex
 Els pins de la placa microbit no pot donar voltatges de sortida analògics, es a dir, no pot entregar diferents voltatge, en canvi pot donar 0V o 3,3V. Per a canviar la velocitat d'un motor o el grau d'il·luminació d'un LED el que fa la placa és simular un voltatge variable a través d'un mètode que es diu Modulació d'Amplada de Pols, PWM en les seves segles en anglès (Pulse-Width Modulation), i que consisteix en injectar polses de diferent amplada com es veu a la figura inferior.
 
 <div align="middle">
-<img src="img/pwm.png" width="50%">
+<img src="img/pwm.png" width="80%">
 </div>
 
 Tots els polses tenen el mateix període però es varia l'amplada del pols i això fa que la potència entregada a l'actuador sigui més alta quan el pols és més ample, com a conseqüència, el motor anirà més ràpid o el LED brillarà més quan el pols té una amplada més gran.
