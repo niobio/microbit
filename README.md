@@ -6,6 +6,8 @@ Tota la informació actualitzada del lleguatge micropyton per a la placa microbi
 
 ### [Controlant un LED](led/led.md){:target="_blank"}
 
+### [Controlar un LED RGB](led/rgb.md){:target="_blank"}
+
 ### [Sensors](ldr/ldr.md){:target="_blank"}
 
 ### [Pins d'Entrada/Sortida](pins/pins.md){:target="_blank"}
