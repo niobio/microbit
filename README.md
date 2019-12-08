@@ -14,6 +14,8 @@ Tota la informació actualitzada del lleguatge micropyton per a la placa microbi
 
 ### [Control de motors](motor/motors.md){:target="_blank"}
 
+### [Detecció d'obstacles amb ultrasons](ultrasons/ultrasons.md){:target="_blank"}
+
 ### [Detecció de moviments amb infraroigs](ir/pir/pir.md){:target="_blank"}
 
 ### [Detecció d'obstacles amb infraroigs](ir/ir_obstacle/ir_obstacle.md){:target="_blank"}
