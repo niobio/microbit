@@ -63,5 +63,5 @@ Per prendre'ns la temperatura podem posar en contacte el processador amb el fron
 
 
 ## Mesurar la temperatura amb un sensor extern
-Si volem mesurar la temperatura amb un sensor extern i obtenir una mesura amb major precisió podem fer servir el tutorial https://www.teachwithict.com/temp.html on es fa servir el sensor [TMP36](https://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf). Hem de recordar que si fem servir un sensor extern hem de fer una calibració del sensor o fer servir les corbes de calibració proveïdes pel fabricant.
+Si volem mesurar la temperatura amb un sensor extern i obtenir una mesura amb major precisió podem fer servir el tutorial [https://www.teachwithict.com/temp.html](https://www.teachwithict.com/temp.html) on es fa servir el sensor [TMP36](https://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf). Hem de recordar que si fem servir un sensor extern hem de fer una calibració del sensor o fer servir les corbes de calibració proveïdes pel fabricant.
 
