@@ -10,6 +10,8 @@ Tota la informació actualitzada del lleguatge micropyton per a la placa microbi
 
 ### [Sensors](ldr/ldr.md){:target="_blank"}
 
+### [Mesurant temperatura](temperatura/temperature.md){:target="_blank"}
+
 ### [Pins d'Entrada/Sortida](pins/pins.md){:target="_blank"}
 
 ### [Control de motors](motor/motors.md){:target="_blank"}
