@@ -97,7 +97,7 @@ La connexió de bombetes en paral·lel es fa tal com es mostra a la figura segü
 
 $$V=\textrm{constant}$$
 
-* **Intensitat**: depèn del valor de la resistència que han de travessar els electrons. Quan més petita sigui la resistència, la intensitat serà més altal La intensitat produïda pel generador serà la suma de les intensitats en cada branca del circuit.  
+* **Intensitat**: depèn del valor de la resistència que han de travessar els electrons. Quan més petita sigui la resistència, la intensitat serà més altal La intensitat produïda pel generador serà la suma de les intensitats en cada branca del circuit.
 
 $$I=I_1+I_2+I_3$$
 
