@@ -22,7 +22,7 @@ La intensitat de corrent, I, és la quantitat de càrrega que circula per un con
 </figure>
 
 ### Resistència
-La resistència, R, és el grau d'oposició que presenten els conductors al pas del corrent elèctric. En el SI s'expressa en **ohms** ($\Omega$). Per a mesurar la resistència amb el polímetre, el component per al qual volem mesurar la seva resistència ha d'estar deconnectat del circuit per tal de fer la mesura, es a dir, no ha de tenir tensió aplicada. El selector de l'intrument ha d'estar en la seva posició d'ohmímetre.
+La resistència, R, és el grau d'oposició que presenten els conductors al pas del corrent elèctric. En el SI s'expressa en **ohms** ($$\Omega$$). Per a mesurar la resistència amb el polímetre, el component per al qual volem mesurar la seva resistència ha d'estar deconnectat del circuit per tal de fer la mesura, es a dir, no ha de tenir tensió aplicada. El selector de l'intrument ha d'estar en la seva posició d'ohmímetre.
 <br><br>
 <figure>
 <img src="img/ohmetre.png" width="300px">
@@ -41,14 +41,14 @@ La llei d'Ohm estableix que les tres magnitud esmentades no són pas independent
 
 $$V=I\times R$$
 
-On $V$ s'expressa en voltes (V), $I$ s'expressa en ampers (A) i $R$ s'expressa en ohms ($\Omega$). D'aquesta manera, donada dues de les magnituds es pot determinar la tercera fent servir la relació anterior i aïllant la magnitud incògnita.
+On $$V$$ s'expressa en voltes (V), $$I$$ s'expressa en ampers (A) i $$R$$ s'expressa en ohms ($$\Omega$$). D'aquesta manera, donada dues de les magnituds es pot determinar la tercera fent servir la relació anterior i aïllant la magnitud incògnita.
 
 ## Potència
-La potència ($P$) és l'energia per unitat de temps que consumeix un receptor o que produeix un generador. Es pot calcular a partir de la tensió i de la intensitat de corrent: 
+La potència ($$P$$) és l'energia per unitat de temps que consumeix un receptor o que produeix un generador. Es pot calcular a partir de la tensió i de la intensitat de corrent: 
 
 $$P=V\times I$$
 
-En el SI la potència s'expressa en **watts** (W). De manera que 1 watt = 1 volt $\times$ 1 amper. Altra manera habitual d'expressar la potència és a través del múltiple del watt: el kilowatt (kW).
+En el SI la potència s'expressa en **watts** (W). De manera que 1 watt = 1 volt $$\times$$ 1 amper. Altra manera habitual d'expressar la potència és a través del múltiple del watt: el kilowatt (kW).
 
 $$1\mathrm{kW}=1000\,\mathrm{W}=10^{3}\mathrm{W}$$
 
@@ -177,7 +177,7 @@ Al tancar l'interruptor 1, l'electroimant del relé torna a atreure la placa met
 </figure>
 
 ## Resitències
-En general es diu que ofereix resistència qualsevol cosa que s'oposi al pas de l'electricitat en un circuit. La resistència es mesura en ohms i el símbol és la lletra grega majúscula omega ($\Omega$). Les resistències electròniques són uns elements molt utilitzats en qualsevol circuit. Segons el material utilitzat en la seva construcció s'oposen més o menys al pas del corrent, o sigui, que tenen diferent valor de resistència. Aquests elements es fabriquen amb uns valors que van des d'uns pocs fins a milions d'ohms.
+En general es diu que ofereix resistència qualsevol cosa que s'oposi al pas de l'electricitat en un circuit. La resistència es mesura en ohms i el símbol és la lletra grega majúscula omega ($$\Omega$$). Les resistències electròniques són uns elements molt utilitzats en qualsevol circuit. Segons el material utilitzat en la seva construcció s'oposen més o menys al pas del corrent, o sigui, que tenen diferent valor de resistència. Aquests elements es fabriquen amb uns valors que van des d'uns pocs fins a milions d'ohms.
 
 Les resistències amb un valor ohmic constant s'anomenen resistors o **resistències fixes**. també podem trobar resistències per a les quals el seu valor resistiu depén d'algun factor extern. A aquestes resistències les anomenarem **resistències variables**
 
@@ -215,7 +215,7 @@ Les resistències fixes tenen un valor constant, dintre d'uns marges de toleràn
 
 ### Resistències variables
 #### Potenciòmetres
-Els <a href="https://ca.wikipedia.org/wiki/Potenci%C3%B2metre">potenciòmetres</a> són resistències variables que prenen valors que van des de $0\,\Omega$ i un valor màxim que acostuma venir indicat en el component. Per a canviar el valor és necessari girar un eix o deplaçar un cursor.
+Els <a href="https://ca.wikipedia.org/wiki/Potenci%C3%B2metre">potenciòmetres</a> són resistències variables que prenen valors que van des de $$0\,\Omega$$ i un valor màxim que acostuma venir indicat en el component. Per a canviar el valor és necessari girar un eix o deplaçar un cursor.
 
 <figure>
 <img src="img/potenciometro_01.jpg" width="40%"><img src="img/potenciometro.png" width="40%">
@@ -228,8 +228,8 @@ El potenciòmetre que es veu a la figura és un dels més utilitzats avui dia en
 
 Aquestes resistències canvien el seu valor quan canvia la temperatura. N'hi ha de dos tipus:
 
-* **NTC** (Negative Temperature Coefficient): Si la temperatura augmenta, la resistència disminueix $(T\uparrow,\,R\downarrow)$.
-* **PTC** (Positive Temperature Coefficient): Si la temperatura augmenta, la resistència també puja $(T\uparrow,\,R\uparrow)$.
+* **NTC** (Negative Temperature Coefficient): Si la temperatura augmenta, la resistència disminueix $$(T\uparrow,\,R\downarrow)$$.
+* **PTC** (Positive Temperature Coefficient): Si la temperatura augmenta, la resistència també puja $$(T\uparrow,\,R\uparrow)$$.
 
 Aquestes resistències també s'anomenen **termistors** i es fan servir en sistemes automàtics de regulació de temperatura.
 
@@ -258,15 +258,15 @@ El capacitor, també anomenat condensador, és un component també bastant comú
 
 La capacitat d'un capacitor és la quantitat de càrrega que pot emmagatzemar per cada volt de tensió que s'aplica. La capacitat dels capacitors es mesura en una unitat anomenada **Farad** (F). Com aquesta unitat és massa gran per als condensadors utilitzats habitualment, es fan servir submúltiples d'aquesta unitat:
 
-* **Microfarad**: equival a 0,000001 F i es representa $\mu F$.
-* **Nanofarad**: equival a 0,000000001 F i es representa $nF$
-* **Picofarad**: equival a 0,00000000001 F es representa $pF$
+* **Microfarad**: equival a 0,000001 F i es representa $$\mu F$$.
+* **Nanofarad**: equival a 0,000000001 F i es representa $$nF$$
+* **Picofarad**: equival a 0,00000000001 F es representa $$pF$$
 
 La capacitat (C) és la relació entre la càrrega elèctrica que emmagatzema un capacitor i el voltatge al que està sotmès.
 
 $$C=\frac{q}{V}$$
 
-on $C$ és la capacitat en farads (F), $q$ és la càrrega en coulombs (C) i $V$ és el voltatge en volts (V).
+on $$C$$ és la capacitat en farads (F), $$q$$ és la càrrega en coulombs (C) i $$V$$ és el voltatge en volts (V).
 
 <figure>
 <img src="img/condensador001.jpg" width="80%">
