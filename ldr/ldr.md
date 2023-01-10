@@ -1,17 +1,17 @@
 
 # Sensors
 
-Els sensors són dispositius que poden captar informació del seu voltant. Aquesta informació es pot processar i es poden prendre decisions per canviar alguna situació. Un exemple d'utilització de sensors són els fanals del carrer. Els fanals s'encenen quan es fa de nit no perquè hi hagi algú que engega un interruptor, sinó perquè els fanals tenen un sensor que està captant la intensitat de llum que li arriba i quan aquest valor baixa per sota d'un determinat valor llindar, el lllum s'encén. El precessament de la informació la fa un microcontrolador amb capacitats semblants a les de la placa microbit.
+Els sensors són dispositius que poden captar informació del seu voltant. Aquesta informació es pot processar i es poden prendre decisions per canviar alguna situació. Un exemple d'utilització de sensors són els fanals del carrer. Els fanals s'encenen quan es fa de nit no perquè hi hagi algú que engega un interruptor, sinó perquè els fanals tenen un sensor que està captant la intensitat de llum que li arriba i quan aquest valor baixa per sota d'un determinat valor llindar, el llum s'encén. El processament de la informació la fa un microcontrolador amb capacitats semblants a les de la placa microbit.
 
-Els sensors es poden classificar de diverses maneres. Si pensem en la informació que llegeigen tenim sensors de temperatura, de llum, de presió, d'humitat, de gasos, etc. Si considerem la forma en la que la informació es transmet, podem classificar els sensor en dues categories: sensors digitals i sensors analògics.
+Els sensors es poden classificar de diverses maneres. Si pensem en la informació que llegeixen tenim sensors de temperatura, de llum, de pressió, d'humitat, de gasos, etc. Si considerem la forma en la que la informació es transmet, podem classificar els sensor en dues categories: sensors digitals i sensors analògics.
 
 ## Sensors digitals
 
-Els sensors digitals es caracteritzan per transmetre informació en forma binària, es a dir, comunica dues possibilitats (Sí/No, Veritat/Fals, 1/0, Tancat/Obert, etc.). Un exemple d'aquest tipus de sensors és un polsador, que es pot considerar com un sensor de contacte. Si posem un sensor d'aquest tipus a un robot podríem saber quan el robot topa amb alguna cosa perquè el polsador canviaria d'estat i aleshores el robot podria fer un canvi de direcció de moviment, per exemple. En aquest cas el polsador té un estat quan està alliberat i un altre quan està premut.
+Els sensors digitals es caracteritzen per transmetre informació en forma binària, es a dir, comunica dues possibilitats (Sí/No, Veritat/Fals, 1/0, Tancat/Obert, etc.). Un exemple d'aquest tipus de sensors és un polsador, que es pot considerar com un sensor de contacte. Si posem un sensor d'aquest tipus a un robot podríem saber quan el robot topa amb alguna cosa perquè el polsador canviaria d'estat i aleshores el robot podria fer un canvi de direcció de moviment, per exemple. En aquest cas el polsador té un estat quan està alliberat i un altre quan està premut.
 
 ## Sensor analògics
 
-Hi ha sensors que no donen un senyal binari sinó que prenen molts valors, com pot ser el cas d'un sensor de temperatura. Un termòmetre no diu si hi ha temperatura o no, sinó que dona tot un ventall de valors possibles de temperatura. Com a exemple farem servir una resistència depenent de la llum, també anomenat LDR (Light Dependent Resistor) o fotorresistor. 
+Hi ha sensors que no donen un senyal binari sinó que prenen molts valors, com pot ser el cas d'un sensor de temperatura. Un termòmetre no diu si hi ha temperatura o no, sinó que dona tot un ventall de valors possibles de temperatura. Com a exemple farem servir una resistència depenent de la llum, també anomenat LDR (Light Dependent Resistor) o fotoresistor. 
 
 ## Utilitzant una LDR com sensor de llum
 
@@ -33,7 +33,7 @@ Per a construir el circuit utilitzarem els següents materials:
 * Cables cocodril
 * Cables per a protoboard mascle-mascle
 * 1 LDR
-* 1 resistència de $10 \mathrm{k\Omega}$
+* 1 resistència de $$10 \mathrm{k\Omega}$$
 
 ### Connexions
 
@@ -61,11 +61,11 @@ Hauríem de veure com canvia el valor mostrat a la pantalla segons el nivell de 
 
 ## Controlant un fanal
 
-Simularem ara el funcionament d'un fanal automàtic. farem que el fanal s'encengui quan el nivell de llum baixa per sota d'un determinat valor, el qual anomenarem **valor llindar** de la llum. Per trobar aquest valor llindar el que farem és mesurar el valor que pren la variable `n ` quan li arriba molta llum i apuntarem aquest valor. A continuació tapem la LDR amb la mà i tornem a mesurar el valor que pren `n` i l'apuntem. Prendrem com a valor llindar un nivell que estigui al mig d'aquests dos valors, es a dir, el valor mitjà:
+Simularem ara el funcionament d'un fanal automàtic. Farem que el fanal s'encengui quan el nivell de llum baixa per sota d'un determinat valor, el qual anomenarem **valor llindar** de la llum. Per trobar aquest valor llindar el que farem és mesurar el valor que pren la variable `n ` quan li arriba molta llum i apuntarem aquest valor. A continuació tapem la LDR amb la mà i tornem a mesurar el valor que pren `n` i l'apuntem. Prendrem com a valor llindar un nivell que estigui al mig d'aquests dos valors, es a dir, el valor mitjà:
 
 $$\text{valor llindar} = \frac{\text{valor màxim} + \text{valor mínim}}{2}$$ 
 
-Quan el nivell de llum sigu alt també ho serà el valor d'`n`, i quan el nivell sigui baix també ho serà el valor d'`n`. 
+Quan el nivell de llum sigui alt també ho serà el valor d'`n`, i quan el nivell sigui baix també ho serà el valor d'`n`. 
 
 ### Material
 
@@ -73,7 +73,7 @@ Per simular el fanal farem servir un LED que connectarem al pin 1 de la microbit
 
 * Cables cocodril i de protoboard
 * LED
-* Resistència més gran que $50\,\Omega$ (per protegir el LED)
+* Resistència més gran que $$50\,\Omega$$ (per protegir el LED)
 
 ### El circuit
 
