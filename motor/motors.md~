@@ -142,18 +142,18 @@ A sota podem veure un exemple de codi per a controlar un servo utilitzant els bo
 from microbit import *
 
 display.off()
-pin4.set_analog_period(20)
+pin16.set_analog_period(20)
 
 while True:
     if button_a.is_pressed():
-        pin4.write_analog(90)
+        pin3.write_analog(180)
     elif button_b.is_pressed():
-        pin4.write_analog(1)
+        pin3.write_analog(0)
     sleep(500)
 ```
 
 #### Notes
-Els valors establers no s'ajustan als angles exactament i convé variar els valors fins a trobar l'angle desitjat. El valor 0 apaga el motor i potser convé posar un valor entre 1 i 5. 
+Els valors establers no s'ajustan als angles exactament i convé variar els valors fins a trobar l'angle desitjat. El valor 0 apaga el motor i potser convé posar un valor proper con 5 o 10. Per que el motor funcioni serà necessari posar una font d'alimentació externa.
 
 ### Referències
 
